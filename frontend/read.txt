@@ -1,0 +1,6 @@
+the templates folder will have HTML only
+in css_and_js folder we have css and js code in respective files
+all images and icons etc should be in assets folder
+in figma folder the figma link will be pasted
+
+handled by Mr Aakash and Mr Raiyan and Mr Vamshi

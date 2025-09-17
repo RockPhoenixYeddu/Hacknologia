@@ -1,0 +1,4 @@
+in ML folder is dedicated only for the ML model and training and exporting etc
+in Connectivity folder is where all the main communication happens between frontend and model
+
+handled by Mr Raiyan and Mr Vamshi
