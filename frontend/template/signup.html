@@ -3,32 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sign Up Page</title>
+  <title>Sign Up</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
 
-  <!-- Link CSS -->
+  <!-- External CSS -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- A4 page container -->
   <div class="a4">
 
-    <!-- Card -->
-    <div class="card">
-      <h1 class="title">Sign up</h1>
+    <!-- Signup Box -->
+    <div class="signup-box">
+      <h1 class="signup-title">Sign Up</h1>
 
-      <!-- Input fields -->
-      <input type="text" class="input input-1" placeholder="Full Name" />
-      <input type="email" class="input input-2" placeholder="Email Address" />
-      <input type="password" class="input input-3" placeholder="Password" />
+      <!-- Input Fields -->
+      <input type="text" class="signup-input" placeholder="Full Name" required />
+      <input type="email" class="signup-input" placeholder="Email Address" required />
+      <input type="password" class="signup-input" placeholder="Password" required />
 
-      <!-- Button -->
-      <button class="btn">Next</button>
+      <!-- Ellipse Button (goes to OTP page) -->
+      <a href="otp.html" class="ellipse-link">
+        <div class="ellipse"></div>
+      </a>
 
-      <!-- Ellipse (just design) -->
-      <div class="ellipse"></div>
+      <!-- Already have account text -->
+      <div class="account-text">
+        Already have an account? <a href="login.html" class="login-link">Login</a>
+      </div>
     </div>
 
   </div>
