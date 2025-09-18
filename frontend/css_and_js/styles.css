@@ -1,0 +1,85 @@
+/* A4 Page */
+.a4 {
+  box-sizing: border-box;
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 20px auto;
+
+  background: url("c51777f4-7433-4e32-b650-f7dce0d5cf13.jpg") no-repeat center/cover;
+  opacity: 0.95;
+  border: 2px solid #000000;
+  font-family: 'Monomaniac One', sans-serif;
+}
+
+/* Card Container */
+.card {
+  box-sizing: border-box;
+  position: absolute;
+  width: 423px;
+  height: 508px;
+  left: 86px;
+  top: 167px;
+
+  background: #D9D9D9;
+  border: 1px solid #625B5B;
+  box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Title */
+.title {
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+/* Inputs */
+.input {
+  width: 335px;
+  height: 62px;
+  margin: 15px 0;
+  padding: 0 15px;
+
+  background: #625858;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+
+/* Button */
+.btn {
+  width: 118px;
+  height: 48px;
+  margin: 20px 0;
+
+  background: #D9D9D9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #bbb;
+}
+
+/* Ellipse Decoration */
+.ellipse {
+  position: absolute;
+  width: 100px;
+  height: 56px;
+  bottom: 120px;
+  left: calc(50% - 50px);
+
+  background: #625858;
+  border-radius: 50%;
+}
